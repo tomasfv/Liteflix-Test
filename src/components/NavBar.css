@@ -1,131 +1,121 @@
-
-.nav-container{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
-
-.nav-logo{
-    display: flex;
-    flex-direction: row;
-    position: absolute;
-    height: 34px;
-    left: 7.22%;
-    right: 84.93%;
-    top: calc(50% - 34px/2 - 400px);
-    font-family: 'Bebas Neue';
-    font-style: normal;
-    font-weight:bolder;
-    font-size: 34px;
-    line-height: 34px;
-    letter-spacing: 4px;
-    color: #64EEBC;
-
-    animation: fadeInDown;
-    animation-duration: 3s;
+.nav-logo {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  height: 34px;
+  left: 7.22%;
+  right: 84.93%;
+  top: calc(50% - 34px / 2 - 400px);
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 34px;
+  line-height: 34px;
+  letter-spacing: 4px;
+  color: #64eebc;
+  animation: fadeInDown;
+  animation-duration: 3s;
 }
-.nav-lite{
-
-    font-weight:bolder;
+.nav-lite {
+  font-weight: bolder;
 }
 
-.nav-flix{
- 
-    font-weight: lighter;
+.nav-flix {
+  font-weight: lighter;
 }
 
-.nav-agregar{
-    position: absolute;
-    left: 26%;
-    top: calc(50% - 34px/2 - 360px);
-    width: 190px;
-    height: 18px;
-    font-family: 'Bebas Neue', cursive;
-    font-style: normal;
-    font-weight: lighter;
-    font-size: 18px;
-    line-height: 18px;
-    letter-spacing: 4px;
-    color: #FFFFFF;
-    background-color: transparent;
-    border: none;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-    cursor: pointer;
-
-    animation: fadeInUp;
-    animation-duration: 3s;
+.nav-agregar {
+  position: absolute;
+  left: 26%;
+  top: calc(50% - 34px / 2 - 360px);
+  width: 190px;
+  height: 18px;
+  font-family: "Bebas Neue", cursive;
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 4px;
+  color: #ffffff;
+  background-color: transparent;
+  border: none;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  cursor: pointer;
+  animation: fadeInUp;
+  animation-duration: 3s;
 }
 
-.plus-icon{
-    position: absolute;
-    left: 25%;
-    top: calc(50% - 34px/2 - 375px);
-    color: white;
-
-    animation: fadeInUp;
-    animation-duration: 3s;
-
+.plus-icon {
+  position: absolute;
+  left: 25%;
+  top: calc(50% - 34px / 2 - 375px);
+  color: white;
+  animation: fadeInUp;
+  animation-duration: 3s;
 }
 
-.bell-icon{
-    position: absolute;
-    right: 162px;
-    top: calc(50% - 34px/2 - 400px);
-    font-size: 25px;
-    color: #FFFFFF;
-
-    animation: fadeIn;
-    animation-duration: 4s;
+.bell-icon {
+  position: absolute;
+  right: 162px;
+  top: calc(50% - 34px / 2 - 400px);
+  font-size: 25px;
+  color: #ffffff;
+  animation: fadeIn;
+  animation-duration: 4s;
 }
 
-.menu-icon{
-    position: absolute;
-    right: 220px;
-    top: calc(50% - 34px/2 - 400px);
-    font-size: 25px;
-    color: #FFFFFF;
-
-    animation: fadeIn;
-    animation-duration: 2s;
+.menu-icon {
+  position: absolute;
+  right: 220px;
+  top: calc(50% - 34px / 2 - 400px);
+  font-size: 25px;
+  color: #ffffff;
+  animation: fadeIn;
+  animation-duration: 2s;
 }
 
-.avatar-icon{
-    position: absolute;
-    right: 100px;
-    top: calc(50% - 34px/2 - 415px);
-    font-size: 35px;
-    color: #FFFFFF;
+.avatar-icon {
+  position: absolute;
+  right: 100px;
+  top: calc(50% - 34px / 2 - 415px);
+  font-size: 35px;
+  color: #ffffff;
 
-    animation: fadeIn;
-    animation-duration: 6s;
+  animation: fadeIn;
+  animation-duration: 6s;
 }
 
-@media (max-width: 485px){
-    
-    .nav-container{
-        text-align: center;
-    }
-    .nav-logo{
-        top: 0;
-        left: 33%;
-    }
+@media (max-width: 780px) {
+  .nav-container {
+    text-align: center;
+  }
+  .nav-logo {
+    top: 0;
+    left: 33%;
+  }
 
-    .plus-icon{
-        top: 3%;
-        left: 10%
-    }
+  .plus-icon {
+    top: 3%;
+    left: 10%;
+  }
 
-    .avatar-icon{
-        top: -1%;
-        right: 3%
-    }
+  .avatar-icon {
+    top: -1%;
+    right: 3%;
+  }
 
-    .nav-agregar, .bell-icon, .menu-icon{
-        display: none;
-    }
-
+  .nav-agregar,
+  .bell-icon,
+  .menu-icon {
+    display: none;
+  }
 }

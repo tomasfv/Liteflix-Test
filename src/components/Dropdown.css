@@ -1,52 +1,44 @@
-.drop-container{
-    /* position: absolute;
-    right: 10.76%;
-    top: calc(50% - 18px/2 - 305px); */
-    font-family: 'Bebas Neue';
-    font-style: normal;
-    font-weight:lighter;
-    font-size: 18px;
-    text-align: center;
-    letter-spacing: 4px;
-    color: #FFFFFF;
-    /* border: solid 1px green; */
-
+.drop-container {
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 4px;
+  color: #ffffff;
 }
 
-
-
-.drop-select{
-    display: flex;
-    flex-direction: row; 
+.drop-select {
+  display: flex;
+  flex-direction: row;
 }
 
-.drop-options{
-    font-family: 'Bebas Neue';
-    font-style: normal;
-    font-weight:lighter;
-    font-size: 18px;
-    text-align: center;
-    letter-spacing: 4px;
-    border: hidden;
-    background-color: #ffffff00;
-    color: #FFFFFF;
-    cursor: pointer;
+.drop-options {
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 4px;
+  border: hidden;
+  background-color: #ffffff00;
+  color: #ffffff;
+  cursor: pointer;
 }
 
-.drop-options:focus{
-    outline: none;
+.drop-options:focus {
+  outline: none;
 }
 
-.drop-option{
-    border: hidden;
-    background: #363636;
-    color: #FFFFFF;
-    width: 500px;
-    height: 500px;
-    list-style: none;
+.drop-option {
+  border: hidden;
+  background: #363636;
+  color: #ffffff;
+  width: 500px;
+  height: 500px;
+  list-style: none;
 }
 
-.drop-option:hover{
-    color: #363636;
+.drop-option:hover {
+  color: #363636;
 }
-
