@@ -1,0 +1,93 @@
+.card-container{
+    color: #ffff;
+    height: 130px;
+    width: 210px;
+    /* border: solid #ffffff8f 1px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+
+    animation: fadeIn;
+    animation-duration: 5s;
+}
+
+.card-container:hover .card-title{
+    margin-top: 25px;
+    
+   
+}
+
+.card-container:hover .card-img{
+    filter: brightness(0.5); 
+}
+
+.card-container:hover .card-rating{
+     display: initial;
+}
+
+.card-container:hover .card-date{
+     display: initial;
+}
+
+.card-container:hover .card-play{
+     display: none;
+}
+
+
+
+.card-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 3px;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out; 
+
+}
+
+.card-title{
+    position: absolute;
+    font-size: 12px;
+    margin-top: 95px;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out; 
+    
+    
+}
+
+.card-rating{
+    display: none;
+    position: absolute;
+    font-size: 12px;
+    margin-top: 100px;
+    left: 20px;
+    animation: fadeIn;
+    animation-duration: 1s;
+    
+}
+
+.card-date{
+    display: none;
+    position: absolute;
+    font-size: 12px;
+    margin-top: 100px;
+    right: 40px;
+    animation: fadeIn;
+    animation-duration: 1s;   
+    
+}
+
+.card-play{
+    position: absolute;
+    margin-top: 10px;
+    font-size: 45px;
+    color: #ffffffc4;
+    animation: fadeIn;
+    animation-duration: 1s;
+    
+    
+
+}
+
